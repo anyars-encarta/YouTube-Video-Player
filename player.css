@@ -1,0 +1,269 @@
+/* Set a left and right padding for the nav class */
+.content {
+    padding-left:290px;
+    padding-right:290px;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: rgb(6, 131, 19);
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    height: 50px;
+    width: 925px;
+    position: fixed;
+  }
+
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 700px;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+
+  /* Style the navigation bar search button */
+  .topnav button {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+
+  .topnav button:hover {
+    background-color: rgb(249, 241, 7);
+  }
+  
+  /* Style the navigation bar search button text */
+  .topnav button a {
+  text-decoration: none;
+  }
+
+  /* The side navigation menu */
+.sidebar {
+    margin-top: 60px;
+    margin-left: 20px;
+    padding: 0;
+    width: 350px;
+    background-color: rgba(200, 203, 200, 0.94);
+    height: auto;
+    float: right;
+  }
+
+  .playlist {
+    padding-top: 55px;
+  }
+
+  /* Style suggested */
+  .suggest1, .suggest2, .suggest3, .suggest4, .suggest5, .suggest6, .suggest7, .suggest8, .suggest9, .suggest10 {
+    background-color: rgb(94, 82, 82);
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 330px;
+    height: 95px;
+    border-radius: 10px;
+  }
+
+  .suggest1:hover, .suggest2:hover, .suggest3:hover, .suggest4:hover, .suggest5:hover, .suggest6:hover, .suggest7:hover, .suggest8:hover, .suggest9:hover, .suggest10:hover {
+    background-color: rgb(155, 149, 149);
+  }
+
+  .suggest1 img, .suggest2 img, .suggest3 img, .suggest4 img, .suggest5 img, .suggest6 img, .suggest7 img, .suggest8 img, .suggest9 img, .suggest10 img {
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 100px;
+    height: 80px;
+  }
+
+  .suggest1 .suggest-head1, .suggest2 .suggest-head2, .suggest3 .suggest-head3, .suggest4 .suggest-head4, .suggest5 .suggest-head5, .suggest6 .suggest-head6, .suggest7 .suggest-head7, .suggest8 .suggest-head8, .suggest9 .suggest-head9, .suggest10 .suggest-head10 {
+    color: white;
+    text-decoration: underline;
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+  }
+
+  .suggest1 .desc1, .suggest2 .desc2, .suggest3 .desc3, .suggest4 .desc4, .suggest5 .desc5, .suggest6 .desc6, .suggest7 .desc7, .suggest8 .desc8, .suggest9 .desc9, .suggest10 .desc10 {
+    position:absolute;
+    color: white;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+
+ /* Position the iFrame */ 
+  .content iframe {
+    position: fixed;
+    margin-top: 6px;
+  }
+
+  .sidebar h6 {
+    color: rgba(37, 34, 34, 0.905);
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 6px 6px 2px 6px;
+  }
+  
+  h4 {
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 6px 6px 2px 6px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 6px 6px 2px 6px;
+  }
+
+  h3 a {
+    text-decoration: none;
+  }
+
+  h3 a:hover {
+    color: rgb(201, 24, 24);
+  }
+
+  .follow-container {
+    padding-top: 375px;
+  }
+
+  .follow-container .extra a {
+    margin-top: 6px;
+    float: left;
+  }
+
+  .letter {
+    background-color: rgb(245, 245, 248);
+    border-radius: 100px;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 0;
+    float: left;
+  }
+
+  .social-handle {
+    margin-left: 40px;
+    margin-top: 50px;
+    
+  }
+
+  .subs {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: grey;
+    margin-left: 8px;
+  }
+
+  .subscribe, .share {
+    border-radius: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 50px;
+    float: right;
+  }
+
+  .subscribe a, .share a {
+    text-decoration: none;
+  }
+
+  .subscribe:hover, .share:hover {
+    background-color: rgb(249, 241, 7);
+  }
+
+  .letter a, .extra a, .social-handle a, .subscribe a, .share a {
+    text-decoration: none;
+    color: rgb(10, 25, 233);
+  }
+
+  .description {
+    background-color: rgb(231, 229, 229);
+    float: left;
+    width: 550px;
+    color: rgb(9, 9, 9);
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .description p {
+    padding: 16px;
+  }
+
+  .commenter img {
+    float: left;
+    margin-top: 12px;
+    margin-left: 6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+
+  .commenter input {
+    margin-top: 20px;
+    margin-left: 16px;
+    font-size: 16px;
+    width: 480px;
+    border: none;
+  }
+
+  .separator {
+    margin-left: 16px;
+  }
+
+  .commenter button {
+    margin-top: 0px;
+    margin-left: 16px;
+    float: right;
+  }
+
+  .commenter a {
+    text-decoration: none;
+  }
+
+  .foot {
+    background-color: rgb(6, 131, 19);
+    overflow: hidden;
+    margin-top: 2px;
+    height: 50px;
+    width: 925px;
+}
+
+.foot h6 {
+    margin: 6px;
+    font-size: 12px;
+    color: white;
+    padding-top: 15px;
+}
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+  
